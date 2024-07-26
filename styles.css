@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'UhBeeQUEENJ';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeQUEENJ.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+body {
+    font-family: 'UhBeeQUEENJ', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Viewport height */
+}
+
+.container {
+    width: 360px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full height of the viewport */
+    position: relative; /* Allows absolute positioning of child elements */
+}
+
+header {
+    background: linear-gradient(270deg, #BD00FF 0%, #4200FF 18.5%, #0094FF 34.5%, #00FF38 54.5%, #FFD600 70%, #FF8A00 86%, #FF3D00 100%);
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    header h1 {
+        font-size: 24px; /* h1 제목의 폰트 크기 설정 */
+    }
+    
+    header h2 {
+        font-size: 16px; /* h2 제목의 폰트 크기 설정 */
+    }
+}
+
+main {
+    flex: 1; /* Takes up available space */
+    padding: 20px;
+    overflow-y: auto; /* Allows scrolling if content overflows */
+}
+
+#image-container {
+    width: 312px;
+    height: flex;
+    margin: 0 auto;
+    padding: 0px;
+    background-color: #ffffff;
+    border: 0px solid #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-caption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+
+footer {
+    background-color: #e9e9e9;
+    color: rgb(151, 151, 151);
+    text-align: center;
+    padding: 0px 0;
+    font-size: 12px; /* 푸터의 폰트 크기 설정 */
+}
